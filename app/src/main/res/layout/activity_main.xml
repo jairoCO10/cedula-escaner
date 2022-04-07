@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/my_toolbar"
+        layout="@layout/toolbar"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scrollbarDefaultDelayBeforeFade="500"
+        android:scrollbarSize="8dp">
+
+
+        <TextView
+            android:id="@+id/tvDocumentID"
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="60dp"
+            android:text="@string/identificacion"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tvLastName"
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="120dp"
+            android:text="@string/apellido"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tvsecondLastName"
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="180dp"
+            android:text="@string/segundoapellidod"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tvFirstName"
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="240dp"
+            android:text="@string/primernombre"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tvSecondName"
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="300dp"
+            android:text="@string/segundoNombre"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="360dp"
+            android:text="@string/fechanacimiento"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tvGenderr"
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="420dp"
+            android:text="@string/genero"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tvRH"
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="480dp"
+            android:text="@string/rh"
+            android:textSize="30sp" />
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnScan"
+            android:layout_width="72dp"
+            android:layout_height="79dp"
+            android:layout_below="@+id/tvRH"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="327dp"
+            android:layout_marginTop="-7dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="36dp"
+            android:background="#6700FA"
+            android:clickable="true"
+            android:onClick="onClick"
+            app:backgroundTint="@color/colorMorado"
+            app:srcCompat="@drawable/barcode_scan"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

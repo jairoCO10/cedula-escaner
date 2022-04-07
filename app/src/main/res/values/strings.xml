@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">cedula-scanner</string>
+    <string name="primernombre">Nombre</string>
+    <string name="segundoNombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="segundoapellidod">Apellido</string>
+    <string name="identificacion">Identificacion</string>
+    <string name="genero">Genero</string>
+    <string name="rh">Tipo de Sangre</string>
+    <string name="fechanacimiento">Fecha de Nacimiento </string>
+    <string name="temperatura">Temperatura</string>
+    <string name="btnscan">Scanner</string>
+    <string name="agregardispositivo">Agregar Dispositivo Bluetooth</string>
+    <string name="acercade">Acerca de</string>
+    <string name="basedatos">Base de Datos</string>
+</resources>
